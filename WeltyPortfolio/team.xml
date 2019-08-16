@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skillSet>
+	<indivSkill>
+		<name>Technical Skills</name>
+		<title>Java</title>
+        <title2>Ruby on Rails</title2>
+        <title3>HTML5-CSS-JavaScript</title3>
+        <title4>C/C++</title4>
+        <title5>SSH</title5>
+        <title6>Git</title6>
+        
+		
+	</indivSkill>
+    
+	<indivSkill>
+		<name>Applications</name>
+        
+        <title>SQL Developer</title>
+        <title2>AWS Cloud9</title2>
+        <title3>VirtualBox</title3>
+        <title4>MS Office Suite</title4>
+        <title5>Brackets</title5>
+        <title6>NetBeans</title6>
+	</indivSkill>
+    
+	<indivSkill>
+		<name>Database Technologies</name>
+        
+        <title>MySQL</title>
+        <title2>MVC</title2>
+        <title3>SQL Server</title3>
+        <title4>Oracle</title4>
+        <title5>IBM Db2</title5>
+        <title6>IBM Information Analyzer</title6>
+	</indivSkill>
+
+	
+</skillSet>

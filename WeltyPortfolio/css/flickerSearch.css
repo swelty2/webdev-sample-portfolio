@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*********** Content ***********/
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
+  width: 500px;
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+
+/* Header */
+
+h1 {
+  padding-top: .7em;
+  text-align: center;
+}
+
+/* Load Images Button */
+
+input[type="button"] {
+  appearance: none;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 50px;
+}
+
+/* Images container */
+
+#photos {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Loaded images */
+
+img {
+  margin: 5px;
+  border-radius: 5px;
+}

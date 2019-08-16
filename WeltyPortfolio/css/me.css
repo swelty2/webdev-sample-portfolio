@@ -1,0 +1,114 @@
+/* Import font */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+.mySlides {
+  display: none;
+}
+
+/*********** Content ***********/
+
+section#aboutContent {
+  min-height: 100%;
+}
+
+/* Column Containers */
+
+#col1 {
+  display: block;
+}
+
+#col2,
+#col3 {
+  display: inline-block;
+  width: 47%;
+  margin-top: 20px;
+  margin-left: 2px;
+  vertical-align: top;
+}
+
+#col3 {
+  margin-left: 45px;
+}
+
+/* Subhead styling */
+
+#col1 h3 {
+  width: auto;
+  display: block;
+  text-align: center;
+}
+
+#vetStuPro {
+  display: block;
+  text-align: center;
+}
+
+#presentP {
+  display: flex
+}
+
+/* accordion header1 */
+
+#ui-id-1 {
+  background-color: #EEE2DC;
+  color: #123C69;
+}
+
+/* accordion header1 active */
+
+h3#ui-id-1.ui-state-active {
+  background-color: #123C69;
+  color: #EEE2DC;
+}
+
+/* content1 */
+
+#ui-id-2 {
+max-height: 375px }
+
+/* accordion header2 */
+
+#ui-id-3 {
+  background-color: #EEE2DC;
+  color: #123C69;
+}
+
+/* accordion header1 active */
+
+h3#ui-id-3.ui-state-active {
+  background-color: #123C69;
+  color: #EEE2DC;
+}
+
+/* content2 */
+
+#ui-id-4 {
+     max-height: 250px;
+}
+
+/* accordion header3 */
+
+#ui-id-5 {
+    
+  background-color: #EEE2DC;
+  color: #123C69;
+}
+
+/* accordion header3 active */
+
+h3#ui-id-5.ui-state-active {
+  background-color: #123C69;
+  color: #EEE2DC;
+}
+
+/* content3 */
+
+#ui-id-6 {
+    max-height: 250px;
+}
+
+/* Slider */
+
+#slider {
+  min-height: 500px;
+}

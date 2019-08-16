@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Sarah</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <script type="text/javascript" src="js/contact.js"></script>
+
+  </head>
+
+  <body id="contact">
+    <main>
+
+      <!--------- LEFT BAR --------->
+      <!-- Name/Tag Line -->
+      <section id="leftBar" class="leftBar">
+        <section id="me" class="leftBar">
+          <p id="fname" class="leftBar">Sarah</p>
+          <p id="lname" class="leftBar">Welty</p>
+          <p id="who" class="leftBar"><em>Student. Intern. Seeker of Knowledge.</em></p>
+        </section>
+        <!-- Navigation Links -->
+        <section id="leftBarlinks" class="leftBar">
+          <ul id="linksContainer" class="leftBar">
+            <li><span id="homeIcon" class="linkIcon leftBar"></span><a href="index.html">Home</a>
+            </li>
+            <li><span id="aboutIcon" class="linkIcon leftBar"></span><a href="me.html">About</a>
+            </li>
+            <li><span id="resumeIcon" class="linkIcon leftBar"></span><a href="resume2018.pdf" target="_blank">Resume</a>
+            </li>
+            <li><span id="skillsIcon" class="linkIcon leftBar"></span><a href="skills.html">Skills</a>
+            </li>
+            <li><span id="contactIcon" class="linkIcon leftBar"></span><a href="contact.html">Contact</a>
+            </li>
+            <li><span id="flikrIcon" class="linkIcon leftBar"></span><a href="flickerSearch.html">Techy Flikr</a>
+            </li>
+
+          </ul>
+        </section>
+      </section>
+      <!--------- MAIN CONTENT --------->
+      <section id="mainContent" class="mainContent">
+        <section id="headerMain" class="mainContent">
+          <section id="mainHead">
+            <div id="titleHead">
+              <h1>Contact Me</h1>
+              <h4>Please fill out the following form to contact me:</h4>
+            </div>
+          </section>
+          <form id="email_form" name="email_form" action="contact_results.html" method="get">
+
+            <input type="text" name="name" id="name" placeholder="Name" required> <span class="reqLabel">*</span><br>
+            <br>
+
+            <input type="text" id="email_address1" name="email_address1" placeholder="Email Address">
+            <span class="reqLabel">*</span><br>
+            <br>
+
+            <input type="text" name="mphone" id="mphone" placeholder="Phone" required><span class="reqLabel">*</span><br>
+
+            <br>
+
+            <label><strong>Contact me by:</strong></label>
+            <br>
+            <input type="radio" name="contact" id="text" value="text" checked>Text
+            <input type="radio" name="contact" id="email" value="email">Email
+            <input type="radio" name="contact" id="mobile" value="mobile">Phone
+
+            <br>
+            <select name="contacthrs" id="contacthrs">
+            	<option value="">Preferred hours to contact</option>
+                <option>Mornings (8am-11am)</option>
+                <option>Lunch Time (11am - 1pm)</option>
+                <option>Afternoons (1pm - 5pm)</option>
+                <option>Evening (After 5pm)</option>
+                <option>No preference</option>
+            </select>
+
+            <br><br>
+            <textarea name="comments" id="comments" rows="5" cols="40" placeholder="Message"></textarea>
+            <br>
+            <input type="submit" id="join_list" value="Contact">
+            <input type="reset" id="reset" name="reset" value="Reset"><br> </form>
+          <h2 id="contact_header">&nbsp;</h2>
+          <table id="contact_info"></table>
+        </section>
+      </section>
+
+    </main>
+    <footer>2018 UNCC | Sarah Welty | ITIS 3135 Project<br/>
+      <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+
+    </footer>
+  </body>
+
+</html>
